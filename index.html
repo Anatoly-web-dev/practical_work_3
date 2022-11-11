@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Новости IT</title>
+	<!--Добавляем favicon (значок нашей веб-страницы)-->
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+	<!--Список ключевых слов на странице сайта-->
+	<meta name="keywords" content="Обучение SkillFactory, практическая работа, Новости IT, html, css">
+	<!--Краткое описание страницы сайта-->
+	<meta name="description"
+		content="Практическая работа на курсе 'Веб-Разроботчик' SkillFactory. Примитивная страница со списком новостей выполненная с использованием HTML&CSS">
+	<!--Информация об авторе и авторских правах-->
+	<meta name="author" content="Анатолий Кострыкин">
+	<meta name="copyright" content="Анатолий Кострыкин">
+	<!--Подключаем Google шрифты-->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;1,200;1,600&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<!--Создаем служебный тег, клоторый является оболочкой для всех элементов на странице-->
+	<!--Будем задавать такие стили как background, font-family и т.д. данному тегу, а не body-->
+	<header>
+		<h1>Новости <span class="color-red">IT</span></h1>
+	</header>
+
+	<main>
+		<section class="news">
+			<article>
+				<a id="news_1" href="https://www.bfm.ru/news/512685" target="_blank" title="bfm.ru">
+					<h2>RuStore будет обязательно предустанавливаться на смартфоны в России</h2>
+				</a>
+				<div class="article-meta">
+					Сообщает <a href="https://t.me/government_rus/5220" target="_blank" title="К первоисточнику">Пресс-служба
+						правительства России</a> <time>10 ноября 2022</time>
+				</div>
+				<img src="./img/photo-news-rustore.jpg" alt="news-photo">
+				<p>Российский магазин приложений RuStore будет обязательным для предустановки на смартфоны. RuStore заменит
+					в списке программу для доступа к социально значимым ресурсам App List. Решение вступит в силу с 1 марта.
+				</p>
+			</article>
+			<article>
+				<a id="news_2" href="https://www.bfm.ru/news/512568" target="_blank" title="bfm.ru">
+					<h2>Авиакомпания «Россия» приступила к внедрению отечественного метеорологического ПО</h2>
+				</a>
+				<div class="article-meta">
+					Опубликовал <a href="https://tass.ru/ekonomika/16276305" target="_blank"
+						title="К первоисточнику">TACC</a> <time>9 ноября 2022</time>
+				</div>
+				<img src="./img/photo-news-airboard.jpg" alt="news-photo">
+				<p>Созданное «Аэрософтом» программное обеспечение будет интегрироваться в бортовой планшет пилотов.
+					Метеорологическая информация в него будет поступать от Росгидромета, а навигационную базу поставляет
+					Центр аэронавигационной информации. Данные будут обновляться каждые шесть часов. Внедрение отечественного
+					программного обеспечения призвано повысить точность расчетов рабочих планов полетов. По оценкам компании,
+					это поможет экономить до 3% топлива.
+				</p>
+			</article>
+			<article>
+				<a id="news_3" href="https://www.bfm.ru/news/512615" target="_blank" title="bfm.ru">
+					<h2>В России скачивают все больше пиратских Windows</h2>
+				</a>
+				<div class="article-meta">
+					Опубликовал <a href="https://www.kommersant.ru/doc/5653026" target="_blank"
+						title="К первоисточнику">«Коммерсантъ»</a> <time>09 ноября 2022</time>
+				</div>
+				<img src="./img/photo-news-microsoft.jpg" alt="news-photo">
+				<p>Количество загрузки с торрент-трекеров пиратских копий продуктов Microsoft, таких как Windows и Office,
+					растет с августа. По данным Peer Trace, на сегодняшний день в России эти программы скачивают почти 200
+					тысяч раз в день. Эксперты считают, что на эти цифры влияет начало учебного года, а также то, что далеко
+					не весь бизнес сумел перейти на Linux и вынужден возвращаться к решениям американской компании.
+				</p>
+			</article>
+			<article>
+				<a id="news_4" href="https://www.bfm.ru/news/512486" target="_blank" title="bfm.ru">
+					<h2>Российская компания пообещала запуск беспилотного аэротакси к 2025 году</h2>
+				</a>
+				<div class="article-meta">
+					Опубликовал <a href="https://tass.ru/ekonomika/16259195" target="_blank"
+						title="К первоисточнику">ТАСС</a> <time>08 ноября 2022</time>
+				</div>
+				<img src="./img/photo-news-aerotaxi.jpg" alt="news-photo">
+				<p>Компания Hover приступила к сертификации аэротакси собственной разработки, сообщает ТАСС. А коммерческие
+					полеты предприятие обещает начать уже в 2025 году. Модель аэротакси рассчитана на двух пассажиров, может
+					подниматься на высоту до 150 метров и разгоняться до 200 километров в час. Заряда батареи хватает на 40
+					минут.
+				</p>
+			</article>
+			<article>
+				<a id="news_5" href="https://www.bfm.ru/news/512179" title="bfm.ru">
+					<h2>Майнинг стал невыгоден, видеокарты подешевели</h2>
+				</a>
+				<div class="article-meta">
+					Опубликовал <a href="https://www.tomshardware.com/news/gpu-oversupply-spills-onto-the-streets-in-vietnam"
+						target="_blank" title="К первоисточнику">Tom's Hardware</a> <time>03 Ноября 2022</time>
+				</div>
+				<img src="./img/photo-news-maining.jpg" alt="news-photo">
+				<p>На рынке образовался переизбыток видеокарт, которые раньше работали в фермах.Причин несколько. Во-первых,
+					энергокризис привел к росту цен на электричество, а майнинговые фермы его требуют много. Во-вторых, сами
+					криптоактивы обвалились. Тот же биткоин с марта подешевел более чем вдвое и сейчас торгуется чуть выше
+					отметки 20 тысяч долларов.
+				</p>
+			</article>
+		</section>
+		<aside class="sidebar">
+			<h3 class="sidebar__title">Лента новостей</h3>
+			<nav class="sidebar-navigation">
+				<ul class="sidebar-navigation__list sidebar-list">
+					<li class="sidebar-list__item">
+						<time>10 ноября 2022, 15:34</time> <a href="#news_1">RuStore будет обязательно предустанавливаться на
+							смартфоны в России</a>
+					</li>
+					<li class="sidebar-list__item">
+						<time>09 ноября 2022, 03:11</time> <a href="#news_2">Авиакомпания «Россия» приступила к внедрению
+							отечественного метеорологического ПО</a>
+					</li>
+					<li class="sidebar-list__item">
+						<time>09 ноября 2022, 01:45</time> <a href="#news_3">В России скачивают все больше пиратских
+							Windows</a>
+					</li>
+					<li class="sidebar-list__item">
+						<time>08 ноября 2022, 02:34</time> <a href="#news_4">Российская компания пообещала запуск беспилотного
+							аэротакси к 2025 году</a>
+					</li>
+					<li class="sidebar-list__item">
+						<time>03 ноября 2022, 02:28 </time> <a href="#news_5">Майнинг стал невыгоден, видеокарты
+							подешевели</a>
+					</li>
+					<li class="sidebar-list__item_btn">
+						<a href="https://www.bfm.ru/rubric/IT_telecom_internet" target="_blank"
+							title="Еще больше новостей">Все новости IT
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+	</main>
+
+	<footer>
+		<nav class="footer-links">
+			<a href="#">Вакансии</a>
+			<a href="#">Контакты</a>
+			<a href="#">О нас</a>
+			<a href="#">Реклама</a>
+		</nav>
+		<p class="copyright">Copyright &#169 Новости IT, 2022</p>
+	</footer>
+
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
