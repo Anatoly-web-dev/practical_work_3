@@ -246,8 +246,9 @@ footer {
 	color: #e80000;
 }
 
-time {
+.time {
 	color: rgb(176, 146, 193);
+	font-style: italic;
 }
 
 /*Адаптивность*/
